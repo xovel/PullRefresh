@@ -6,8 +6,32 @@
 
 ![DEMO](https://raw.githubusercontent.com/xovel/PullRefresh/master/vendors/demo.gif)
 
+### 项目文件
+
+```text
+  ├──css
+  │   └─layout.css          样式文件
+  ├──js
+  │   └─pullrefresh.js      JS文件
+  ├──vendors
+  │   └─demo.gif            演示图
+  ├──index.html             演示页面
+  ├──LICENSE                协议
+  └──README.md              项目说明
+```
+
 ### 说明
 
+- 为何要做这样的一个页面？
+> 一方面熟悉GIT的操作，另一方面对下拉刷新操作做一个简单的了解与演示。
 
+- 为何采用原生JS进行实现？
+> 原生JS纯净。本项目仅作演示，实际应用时不建议参考。
+> jQurey/Zepto有大量实现此需求的插件。
 
+### 更新日志
+
+- 2016-07-24 代码实现
+- 2016-07-23 结构搭建
+- 2016-07-22 项目初始化
 

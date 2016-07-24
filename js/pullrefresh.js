@@ -15,7 +15,7 @@ xov.$$ = function(selector){
 	return document.querySelectorAll(selector);
 }
 
-xov.div = function( className ){
+xov.div = function(className){
 	var div = document.createElement('div');
 	if( !!className ) {
 		div.className = className;
@@ -84,7 +84,7 @@ xov.on('body','touchstart',function(e){
 		e.returnValue = false;
 	}
 
-}).on('body','touchend',function(){
+}).on('body','touchend',function(e){
 	if( xov.lock && xov.reload ){
 		xov.load = true;
 		xov.down.innerHTML = xov.lang.loading;
