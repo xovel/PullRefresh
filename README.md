@@ -6,7 +6,7 @@
 
 ~~大图杀猫~~
 
-![DEMO](https://raw.githubusercontent.com/xovel/PullRefresh/master/vendors/demo.gif)
+<a href="https://raw.githubusercontent.com/xovel/PullRefresh/master/vendors/demo.gif" target="_blank">DEMO</a>
 
 ### 项目文件
 
