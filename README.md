@@ -9,15 +9,15 @@
 ### 项目文件
 
 ```text
-  ├──css
-  │   └─layout.css          样式文件
-  ├──js
-  │   └─pullrefresh.js      JS文件
-  ├──vendors
-  │   └─demo.gif            演示图
-  ├──index.html             演示页面
-  ├──LICENSE                协议
-  └──README.md              项目说明
+├─css
+│ └─layout.css          样式文件
+├─js
+│ └─pullrefresh.js      JS文件
+├─vendors
+│ └─demo.gif            演示图
+├─index.html             演示页面
+├─LICENSE                协议
+└─README.md              项目说明
 ```
 
 ### 说明
@@ -41,7 +41,7 @@
 
 已测试通过的浏览器：
 
-- QQ浏览器 v9.4.1 内核 Chrome/47.0.2526.80
+- QQ浏览器 v9.4.1 内核 Chromium/47.0.2526.80
 - FireFox v33.1.1
 - 微信移动端自带浏览器 Android v6.3.22
 
