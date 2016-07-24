@@ -4,9 +4,7 @@
 
 ### 演示
 
-~~大图杀猫~~
-
-<a href="https://raw.githubusercontent.com/xovel/PullRefresh/master/vendors/demo.gif" target="_blank">DEMO</a>
+~~大图杀猫~~[点我查看动图演示](https://raw.githubusercontent.com/xovel/PullRefresh/master/vendors/demo.gif)
 
 ### 项目文件
 
