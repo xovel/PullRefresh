@@ -4,6 +4,8 @@
 
 ### 演示
 
+~~大图杀猫~~
+
 ![DEMO](https://raw.githubusercontent.com/xovel/PullRefresh/master/vendors/demo.gif)
 
 ### 项目文件
@@ -41,7 +43,7 @@
 
 已测试通过的浏览器：
 
-- QQ浏览器 v9.4.1 高度内核 Chrome/47.0.2526.80
+- QQ浏览器 v9.4.1 内核 Chrome/47.0.2526.80
 - FireFox v33.1.1
 - 微信移动端自带浏览器 Android v6.3.22
 
