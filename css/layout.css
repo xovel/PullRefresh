@@ -1,7 +1,87 @@
-body{ background: #282828; margin:0; font-family:'San Francisco','Noto SansCJK','Microsoft Yahei';}
-
-.pull-refresh-down{
-  height: 0px;
-  animation: pullDown 1s ease-in;
+body{ 
+	background: #282828; 
+	margin:0; 
+	font-family:'San Francisco','Noto SansCJK','Microsoft Yahei';
 }
 
+.text{
+	color: white;
+	padding: 0 20px;
+	height: 2000px;
+}
+
+.pull-refresh-box{
+	text-align: center; 
+	background: white; 
+	color: #111;
+	height: 30px; 
+	line-height: 30px; 
+	font-size: 12px;
+}
+
+.pull-refresh-down{
+	-webkit-animation: pullDown .5s ease-out;
+	animation: pullDown .5s ease-out;
+}
+
+.pull-refresh-reload{
+	-webkit-animation: pullReload 1s ease-out;
+	animation: pullReload 1s ease-out;
+	padding-top: 50px;
+}
+
+.pull-refresh-up{
+	-webkit-animation: pullUp .5s ease-in;
+	animation: pullUp .5s ease-in;
+}
+
+@-webkit-keyframes pullDown{
+	from {
+		height: 0
+	}
+	to{
+		height: 30px;
+	}
+}
+@keyframes pullDown{
+	from {
+		height: 0
+	}
+	to{
+		height: 30px;
+	}
+}
+
+@-webkit-keyframes pullReload{
+	from {
+		padding-top: 0;
+	}
+	to{
+		padding-top: 50px;
+	}
+}
+@keyframes pullReload{
+	from {
+		padding-top: 0;
+	}
+	to{
+		padding-top: 50px;
+	}
+}
+
+@-webkit-keyframes pullUp{
+	from {
+		padding-top: 50px;
+	}
+	to{
+		padding-top: 0;
+	}
+}
+@keyframes pullUp{
+	from {
+		padding-top: 50px;
+	}
+	to{
+		padding-top: 0;
+	}
+}
