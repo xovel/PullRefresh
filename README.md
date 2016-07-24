@@ -28,11 +28,28 @@
 - 为何采用原生JS进行实现？
 > 原生JS纯净。本项目仅作演示，实际应用时不建议参考。~~jQuery/Zepto有大量实现此需求的插件。~~
 
+### 兼容性
+
+本项目采用了现代浏览器的内置函数进行功能的实现，所使用的具体方法如下：
+
+- CSS3选择器`querySelector`/`querySelectorAll`
+- CSS3动画`animation`
+- 事件侦听`addEventListener`
+- 触屏事件`touchstart`/`touchmove`/`touchend`
+
+支持以上方法的浏览器均有效果。详情请自行参阅[Can I Use](http://caniuse.com/)。
+
+已测试通过的浏览器：
+
+- QQ浏览器 v9.4.1 高度内核 Chrome/47.0.2526.80
+- FireFox v33.1.1
+- 微信移动端自带浏览器 Android v6.3.22
+
 ### 可改进的地方
 
 - [ ] 有固定头部的下拉刷新
 - [ ] 底部上拉加载更多
-- [ ] 加入图标，符合现代审美
+- [ ] 加入图标*符合现代审美*
 
 ### 更新日志
 
