@@ -1,14 +1,13 @@
 # PullRefresh
 
-原生JS实现移动端的下拉刷新操作。
+原生JS实现移动端的下拉刷新操作。不多说，直接上图。
 
-规划中...
+### 演示
 
-测试.. 
+![DEMO](https://raw.githubusercontent.com/xovel/PullRefresh/master/vendors/demo.gif)
 
-另一台电脑上提交中文说明
+### 说明
 
-----
-关于采用CSS3高级功能的设定。
 
-> 移动端大部分设备已经支持CSS3，故此完全可行。
+
+
