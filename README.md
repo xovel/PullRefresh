@@ -4,6 +4,8 @@
 
 ### 演示
 
+[移动端下拉刷新操作](http://xovel.cn/garden/demo/pull-refresh.html)
+
 ~~大图杀猫~~
 
 ![动图演示](https://raw.githubusercontent.com/xovel/PullRefresh/master/vendors/demo.gif)
