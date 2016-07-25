@@ -19,9 +19,9 @@
 │ └─pullrefresh.js      JS文件
 ├─vendors
 │ └─demo.gif            演示图
-├─index.html             演示页面
-├─LICENSE                协议
-└─README.md              项目说明
+├─index.html            演示页面
+├─LICENSE               协议
+└─README.md             项目说明
 ```
 
 ### 说明
