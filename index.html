@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Pullrefresh by xovel</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/xovel/PullRefresh">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/xovel/PullRefresh/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/xovel/PullRefresh/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>Pullrefresh</h1>
+          <p>A plugin of pull-to-refresh in mobile pages written in vanilla js</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/xovel">xovel</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
+        <h1>
+<a id="pullrefresh" class="anchor" href="#pullrefresh" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>PullRefresh</h1>
+
+<p>原生JS实现移动端的下拉刷新操作。不多说，直接上图。</p>
+
+<h3>
+<a id="演示" class="anchor" href="#%E6%BC%94%E7%A4%BA" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>演示</h3>
+
+<p><a href="http://xovel.cn/garden/demo/pull-refresh.html">移动端下拉刷新操作</a></p>
+
+<p><del>大图杀猫</del></p>
+
+<p><img src="https://raw.githubusercontent.com/xovel/PullRefresh/master/vendors/demo.gif" alt="动图演示"></p>
+
+<h3>
+<a id="项目文件" class="anchor" href="#%E9%A1%B9%E7%9B%AE%E6%96%87%E4%BB%B6" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>项目文件</h3>
+
+<pre lang="text"><code>├─css
+│ └─layout.css          样式文件
+├─js
+│ └─pullrefresh.js      JS文件
+├─vendors
+│ └─demo.gif            演示图
+├─index.html            演示页面
+├─LICENSE               协议
+└─README.md             项目说明
+</code></pre>
+
+<h3>
+<a id="说明" class="anchor" href="#%E8%AF%B4%E6%98%8E" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>说明</h3>
+
+<ul>
+<li>
+<p>为何要做这样的一个页面？</p>
+
+<blockquote>
+<p>一方面熟悉GIT的操作，另一方面对下拉刷新操作做一个简单的了解与演示。</p>
+</blockquote>
+</li>
+<li>
+<p>为何采用原生JS进行实现？</p>
+
+<blockquote>
+<p>原生JS纯净。本项目仅作演示，实际应用时不建议参考。<del>jQuery/Zepto有大量实现此需求的插件。</del></p>
+</blockquote>
+</li>
+</ul>
+
+<h3>
+<a id="兼容性" class="anchor" href="#%E5%85%BC%E5%AE%B9%E6%80%A7" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>兼容性</h3>
+
+<p>本项目采用了现代浏览器的内置函数进行功能的实现，所使用的具体方法如下：</p>
+
+<ul>
+<li>CSS3选择器<code>querySelector</code>/<code>querySelectorAll</code>
+</li>
+<li>CSS3动画<code>animation</code>
+</li>
+<li>事件侦听<code>addEventListener</code>
+</li>
+<li>触屏事件<code>touchstart</code>/<code>touchmove</code>/<code>touchend</code>
+</li>
+</ul>
+
+<p>支持以上方法的浏览器均有效果。详情请自行参阅<a href="http://caniuse.com/">Can I Use</a>。</p>
+
+<p>已测试通过的浏览器：</p>
+
+<ul>
+<li>QQ浏览器 v9.4.1 内核 Chromium/47.0.2526.80</li>
+<li>FireFox v33.1.1</li>
+<li>微信移动端自带浏览器 Android v6.3.22</li>
+</ul>
+
+<h3>
+<a id="可改进的地方" class="anchor" href="#%E5%8F%AF%E6%94%B9%E8%BF%9B%E7%9A%84%E5%9C%B0%E6%96%B9" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>可改进的地方</h3>
+
+<ul>
+<li>[ ] 有固定头部的下拉刷新</li>
+<li>[ ] 底部上拉加载更多</li>
+<li>[ ] 加入图标<em>符合现代审美</em>
+</li>
+</ul>
+
+<h3>
+<a id="更新日志" class="anchor" href="#%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>更新日志</h3>
+
+<ul>
+<li>2016-07-24 代码实现</li>
+<li>2016-07-23 结构搭建</li>
+<li>2016-07-22 项目初始化</li>
+</ul>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
