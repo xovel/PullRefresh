@@ -26,9 +26,9 @@ xov.div = function(className){
 
 // config
 xov.lang = {
-	pull: '下拉可以刷新',
-	refresh: '松开可以刷新',
-	loading: '正在加载...'
+	pull: '<span class="pr-icon"></span><span class="pr-text">下拉可以刷新</span>',
+	refresh: '<span class="pr-icon pr-up "></span><span class="pr-text">松开可以刷新</span>',
+	loading: '<span class="pr-icon pr-loading"></span><span class="pr-text">正在加载...</span>'
 }
 xov.height = 120;
 // config end
